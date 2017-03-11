@@ -1,1 +1,1 @@
-Visit this site at https://lrstanley.github.io/status/
+Visit this site at https://status.liam.sh/
