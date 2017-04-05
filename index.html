@@ -29,20 +29,22 @@
 
 			<section class="container" id="main">
 				
-					<div class="panel operational" data-l10n-id="systems-operational">
-						All Systems operational.
+					
+					<div class="panel degraded performance">
+						<span data-l10n-id="Degraded-performance">Degraded performance</span> <span data-l10n-id="on">on</span> bouncer, byteirc.
 					</div>
+					
 				
 
 				<h4 data-l10n-id="systems">Systems</h4>
 				<ul class="systems">
 					
 					<li>
-						bouncer <span class="status operational" data-l10n-id="operational">operational</span>
+						bouncer <span class="status degraded performance" data-l10n-id="degraded-performance">degraded performance</span>
 					</li>
 					
 					<li>
-						byteirc <span class="status operational" data-l10n-id="operational">operational</span>
+						byteirc <span class="status degraded performance" data-l10n-id="degraded-performance">degraded performance</span>
 					</li>
 					
 					<li>
@@ -77,6 +79,25 @@
 
 				<h4 data-l10n-id="incidents">Incidents</h4>
 				
+					
+					<div class="incident">
+						<span class="date moment">2017-04-05 00:29:12 UTC</span>
+
+						
+							<span class="label degraded performance float-right" data-l10n-id="degraded-performance">degraded performance</span>
+						
+						
+							<span class="label system float-right">bouncer</span>
+						
+							<span class="label system float-right">byteirc</span>
+						
+						<hr/>
+
+						<span class="title">Migration of ZNC and haswell.byteirc.org</span>
+						<p>Shortly I will begin the maintenance to move the bouncer.ml ZNC instance, as well as the haswell.byteirc.org leaf for byteirc.</p>
+
+						
+					</div>
 					
 					<div class="incident">
 						<span class="date moment">2017-04-03 21:09:29 UTC</span>
