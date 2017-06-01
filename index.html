@@ -29,20 +29,22 @@
 
 			<section class="container" id="main">
 				
-					<div class="panel operational" data-l10n-id="systems-operational">
-						All Systems operational.
+					
+					<div class="panel degraded performance">
+						<span data-l10n-id="Degraded-performance">Degraded performance</span> <span data-l10n-id="on">on</span> bouncer, byteirc, host2.ca.px.
 					</div>
+					
 				
 
 				<h4 data-l10n-id="systems">Systems</h4>
 				<ul class="systems">
 					
 					<li>
-						bouncer <span class="status operational" data-l10n-id="operational">operational</span>
+						bouncer <span class="status degraded performance" data-l10n-id="degraded-performance">degraded performance</span>
 					</li>
 					
 					<li>
-						byteirc <span class="status operational" data-l10n-id="operational">operational</span>
+						byteirc <span class="status degraded performance" data-l10n-id="degraded-performance">degraded performance</span>
 					</li>
 					
 					<li>
@@ -74,7 +76,7 @@
 					</li>
 					
 					<li>
-						host2.ca.px <span class="status operational" data-l10n-id="operational">operational</span>
+						host2.ca.px <span class="status degraded performance" data-l10n-id="degraded-performance">degraded performance</span>
 					</li>
 					
 					<li>
@@ -101,6 +103,31 @@
 
 				<h4 data-l10n-id="incidents">Incidents</h4>
 				
+					
+					<div class="incident">
+						<span class="date moment">2017-06-01 04:36:14 UTC</span>
+
+						
+							<span class="label degraded performance float-right" data-l10n-id="degraded-performance">degraded performance</span>
+						
+						
+							<span class="label system float-right">bouncer</span>
+						
+							<span class="label system float-right">byteirc</span>
+						
+							<span class="label system float-right">host2.ca.px</span>
+						
+						<hr/>
+
+						<span class="title">host2.ca.px.liam.sh routing issues</span>
+						<p>looks as though OVH is having a few routing problems, affecting this instance, and potentially host1.ca.px.liam.sh.</p>
+
+<p>I am also taking this opportunity to switch host2.ca.px.liam.sh over to a new kpatch-style kernel, so I don't have to reboot moving forward.</p>
+
+<p>http://status.ovh.com/?do=details&amp;id=14655</p>
+
+						
+					</div>
 					
 					<div class="incident">
 						<span class="date moment">2017-05-28 22:59:11 UTC</span>
