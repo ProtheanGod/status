@@ -29,20 +29,22 @@
 
 			<section class="container" id="main">
 				
-					<div class="panel operational" data-l10n-id="systems-operational">
-						All Systems operational.
+					
+					<div class="panel major outage">
+						<span data-l10n-id="Major-outage">Major outage</span> <span data-l10n-id="on">on</span> bouncer, byteirc.
 					</div>
+					
 				
 
 				<h4 data-l10n-id="systems">Systems</h4>
 				<ul class="systems">
 					
 					<li>
-						bouncer <span class="status operational" data-l10n-id="operational">operational</span>
+						bouncer <span class="status major outage" data-l10n-id="major-outage">major outage</span>
 					</li>
 					
 					<li>
-						byteirc <span class="status operational" data-l10n-id="operational">operational</span>
+						byteirc <span class="status major outage" data-l10n-id="major-outage">major outage</span>
 					</li>
 					
 					<li>
@@ -101,6 +103,28 @@
 
 				<h4 data-l10n-id="incidents">Incidents</h4>
 				
+					
+					<div class="incident">
+						<span class="date moment">2017-07-31 08:12:43 UTC</span>
+
+						
+							<span class="label major outage float-right" data-l10n-id="major-outage">major outage</span>
+						
+						
+							<span class="label system float-right">bouncer</span>
+						
+							<span class="label system float-right">byteirc</span>
+						
+						<hr/>
+
+						<span class="title">bouncer.ml and byteirc maintenance</span>
+						<p>bouncer.ml is being moved to a new host shortly. znc will be offline during this maintenance. feel free to join irc.byteirc.org/BNC if you have any questions:
+https://chat.byteirc.org/?join=%23BNC</p>
+
+<p>byteirc's haswell node will be offline, however connections should failover to the other servers during this maintenance.</p>
+
+						
+					</div>
 					
 					<div class="incident">
 						<span class="date moment">2017-06-16 14:06:38 UTC</span>
